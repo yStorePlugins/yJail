@@ -72,3 +72,27 @@ tag: '&c[PRESO]'
 nbt-item-delete:
   - 'yEventos-Item'
   - 'yGuerra-Item'
+
+# Sistemas gerais
+general:
+  # Sistema de notificar jogadores presos/soltos (yDiscordHook)
+  discordhook:
+    enabled: true
+    channel: ''
+    # Placeholders disponíveis:
+    # {player}
+    # {staff}
+    # {reason}
+    # {time}
+    embed-arrested: ''
+    embed-released: ''
+  # Sistema de notificar jogadores presos/soltos em webhook
+  webhook:
+    enabled: true
+    # Placeholders disponíveis:
+    # {player}
+    # {staff}
+    # {reason}
+    # {time}
+    embed-arrested: 'arrested'
+    embed-released: 'released'
