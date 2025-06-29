@@ -1,11 +1,13 @@
 name: '&5Prisão de Obsidian'
 location: ''
 
-# Bloco que o jogador irá quebrar para reduzir a pena
-block:
-  type: 'OBSIDIAN'
-  # tempo que irá reduzir da pena, em segundos
-  time-reduce: 10
+# Blocos que o jogador irá quebrar para reduzir a pena
+blocks:
+  block1:
+    # Tipo do bloco
+    type: 'OBSIDIAN'
+    # tempo que irá reduzir da pena, em segundos
+    time-reduce: 10
 
 # Comandos liberados
 allowed-commands: [ '/jail' ]
