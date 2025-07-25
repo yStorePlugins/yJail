@@ -63,6 +63,9 @@ minus-offline: false
 # Prender por IP
 arrest-ip: false
 
+# Ativar incrementar a pena apenas 1x por usuário para cada preso
+increase-once: true
+
 # Tag para o jogador preso
 # é uma placeholder relacional
 # Placeholder: %rel_yjail_arrested_tag%
